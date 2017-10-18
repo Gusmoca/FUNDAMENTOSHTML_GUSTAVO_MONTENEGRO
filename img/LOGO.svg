@@ -1,0 +1,11 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#7f3f00" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="14.5" y="16.75" width="355" height="328" id="fondo"/>
+  <path stroke="#000000" opacity="0.3" id="icono" d="m326.249981,204.764067l10.260454,34.86243l31.243951,0.751982l-24.902643,22.298148l9.049373,35.327187l-25.651136,-21.081418l-25.651132,21.081418l9.049373,-35.327187l-24.902644,-22.298148l31.243952,-0.751982l10.260451,-34.86243l10.260454,34.86243" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+  <text fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="162.975092" y="128.538262" id="Letras" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" transform="matrix(8.53458691333678,0,0,8.322144782359064,-1206.7524762268495,-894.1595509316704) " stroke="#000000">GM</text>
+  <rect stroke="#000000" id="svg_6" height="41" width="352.999999" y="304.000003" x="15.99999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff0000"/>
+ </g>
+</svg>
