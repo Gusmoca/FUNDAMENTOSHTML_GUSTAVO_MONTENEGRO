@@ -5,7 +5,7 @@
     <meta name="author" content="Gustavo Montenegro">
     <meta name="description" content= "Hoja de vida Gustavo Montenegro">
     <meta name="viewport" content="width=device-width,user-scalable=no">
-    <title>Educacion</title>
+    <title>Educación</title>
   </head>
   <body>
     <header>
@@ -21,12 +21,85 @@
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </nav>
+    <h2>Educacion</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010</td>
+          <td>Colegio aleman</td>
+          <td>La Paz</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Mikrotik</td>
+          <td>La Paz</td/>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Universidad San Francisco de Asis</td>
+          <td>La Paz</td/>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Oracle</td>
+          <td>La Paz</td/>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <p></p>
+    <form  class="formagregar" action="" >
+      <fieldset>
+        <h3>Agregar Estudios</h3>
+          <p>
+          <label for="lista_año"><strong>Año</strong></label>
+          <select id="lista_año" name="">
+            <option value="1">2009</option>
+            <option value="2">2010</option>
+            <option value="3">2011</option>
+            <option value="4">2012</option>
+            <option value="5">2013</option>
+            <option value="6">2014</option>
+            <option value="7">2015</option>
+            <option value="8">2016</option>
+            <option value="9">2017</option>
+          </select>
+          </p>
+          <p>
+          <label for="institucion"><strong>Institucion</strong></label>
+          <input type="text" id="institucion" name="insti" placeholder="Ingrese institucion" required>
+          </p>
+          <p>
+          <label for="lugar" ><strong>Lugar </strong></label>
+          <textarea name="lugar" id="lugar" rows="3" cols="40"></textarea>
+          </p>
+          <p>
+          <strong>¿Culmino?</strong>
+          <input type="radio" name="rad_c" >Si
+          <input type="radio" name="rad_c" >No
+          </p>
+          <p>
+          <input type="submit" value="Enviar">
+          </p>
+      </fieldset>
+    </form>
     <footer>
       @Derechos reservados
       <ul>
         <li><strong>Email: </strong>gusmonte92@gmail.com</li>
         <li><strong>Telefono: </strong>+591 72519169</li>
-        <li><strong>Direccion: </strong>Calle Buganvillas Nr. 100 La Paz-Bolivia</li>
+        <li><strong>Dirección: </strong>Calle Buganvillas Nr. 100 La Paz-Bolivia</li>
       </ul>
     </footer>
   </body>
